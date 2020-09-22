@@ -37,3 +37,9 @@ body {
 .navbar-dark {
     background: #512DAB;
 }
+.border {
+    border: 1p solid rgb(255, 228, 72);
+    background-color: rgb(235, 204, 29);
+    color: whitesmoke;
+    font-weight: bold;
+}
