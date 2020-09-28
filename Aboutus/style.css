@@ -59,6 +59,21 @@ body {
     left: 0;
     min-height: 300px;
 }
+
+#carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    height: 90%;
+}
+
+.carousel-caption {
+    bottom: 28%;
+}
+
 .border {
     border: 1p solid rgb(255, 228, 72);
     background-color: rgb(235, 204, 29);
