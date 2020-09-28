@@ -17,4 +17,28 @@ $(document).ready(function() {
             pause: "hover"
         })
     });
+
+    // modal codes
+
+    $('#reservebutton').click(function (){
+        $('#reserveModal').modal('toggle')
+    });
+
+    $('#cancelReservation').click(function (){
+        $('#reserveModal').modal('hide')
+    });
+
+    //login modal
+
+    $('#loginButton').click(function (){
+        $('#loginModal').modal('toggle')
+    });
+
+    $('#cancelLogin').click(function (){
+        $('#loginModal').modal('hide')
+    });
+
+    $('.close').click(function (){
+        $('#loginModal, #reserveModal').modal('hide')
+    });
 });
