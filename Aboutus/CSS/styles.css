@@ -37,6 +37,19 @@ body {
   border-bottom: 1px solid #ddd;
   padding: 10px; }
 
+.modal .modal-content .modal-header {
+  color: floralwhite;
+  background: #512dab; }
+  .modal .modal-content .modal-header button {
+    color: floralwhite; }
+
+.modal .modal-content .modal-body {
+  background: #d1c4e9; }
+  .modal .modal-content .modal-body .card {
+    border: none; }
+    .modal .modal-content .modal-body .card .card-body {
+      background: #d1c4e9; }
+
 .carousel {
   background: #512dab; }
   .carousel .carousel-item {
